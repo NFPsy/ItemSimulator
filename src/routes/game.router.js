@@ -1,7 +1,7 @@
 import { gameDataClient } from "../utils/prisma/index.js";
 import express from "express";
 
-const router = express.router();
+const router = express.Router();
 
 
 // 아이템 생성 API
